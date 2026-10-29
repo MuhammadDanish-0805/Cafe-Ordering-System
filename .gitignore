@@ -1,0 +1,51 @@
+
+# =====================================
+# Operating system files
+# =====================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =====================================
+# IDE and editor settings
+# =====================================
+.idea/
+
+# Keep shared VS Code settings if useful
+# .vscode/
+
+# =====================================
+# Environment variables and secrets
+# =====================================
+.env
+.env.*
+!.env.example
+
+# Local configuration files
+config.local.php
+
+# =====================================
+# Logs and temporary files
+# =====================================
+*.log
+*.tmp
+*.bak
+admin/debug_log.txt
+
+# =====================================
+# Uploaded payment proofs
+# =====================================
+uploads/proof_*
+
+# =====================================
+# Database backups
+# =====================================
+*.sql.gz
+*.sqlite
+*.sqlite3
+
+# =====================================
+# Dependencies, if added later
+# =====================================
+node_modules/
+vendor/
